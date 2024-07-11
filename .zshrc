@@ -28,7 +28,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no 
 
 # ALIASES
-source $HOME/.aliases
+source $HOME/dotfiles/.aliases
 
 # EDITORS
 VISUAL='code --wait'

@@ -1,0 +1,40 @@
+# EDIT ZSH CONFIG
+alias ez="vim ~/.zshrc"
+alias ep="vim ~/.p10k.zsh"
+alias rz="source ~/.zshrc" 
+
+# EDIT VIM CONFIG 
+alias vv="vim ~/.vimrc"
+
+# EDIT ALIASES
+alias aa="vim ~/dotfiles/.aliases"
+
+# OS
+alias ..="cd .."
+alias c="clear"
+alias ls="ls -Gal"
+alias o="open ."
+alias pls="sudo !!"
+
+# GIT
+alias add="git add ."
+alias cout="git checkout"
+alias comm="git commit"
+alias fp="git push --force-with-lease"
+alias gb="git branch --all"
+alias gd="git diff"
+alias gf="git fetch --all"
+alias gl="git log --abbrev-commit --decorate --oneline"
+alias gr="git rebase -i"
+alias gs="git status -sb --show-stash --ahead-behind"
+alias gst="git stash"
+alias gsl="git stash list"
+alias gsp="git stash pop"
+alias push="git push"
+alias pull="git pull"
+alias recomm="git commit --amend --no-edit"
+
+# NODE
+alias destroy="rm -rf node_modules && yarn cache clean"
+alias npmg="npm list -g --depth 0"  
+alias yarng="yarn global list"
