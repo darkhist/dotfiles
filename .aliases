@@ -1,16 +1,14 @@
 # EDIT ZSH CONFIG
 alias ez="vim ~/.zshrc"
-alias ep="vim ~/.p10k.zsh"
 alias rz="source ~/.zshrc" 
 
 # EDIT VIM CONFIG 
 alias vv="vim ~/.vimrc"
 
 # EDIT ALIASES
-alias aa="vim ~/dotfiles/.aliases"
+alias aa="vim ~/.aliases"
 
 # OS
-alias ..="cd .."
 alias c="clear"
 alias ls="ls -Gal"
 alias o="open ."
@@ -20,9 +18,9 @@ alias pls="sudo !!"
 alias add="git add"
 alias cout="git checkout"
 alias comm="git commit"
+alias diff="git diff HEAD"
 alias fp="git push --force-with-lease"
 alias gb="git branch --all"
-alias gd="git diff"
 alias gf="git fetch --all"
 alias gl="git log --abbrev-commit --decorate --oneline"
 alias gr="git rebase -i"
