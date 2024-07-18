@@ -17,7 +17,7 @@ alias o="open ."
 alias pls="sudo !!"
 
 # GIT
-alias add="git add ."
+alias add="git add"
 alias cout="git checkout"
 alias comm="git commit"
 alias fp="git push --force-with-lease"
@@ -33,6 +33,7 @@ alias gsp="git stash pop"
 alias push="git push"
 alias pull="git pull"
 alias recomm="git commit --amend --no-edit"
+alias unstage="git restore --staged"
 
 # NODE
 alias destroy="rm -rf node_modules && yarn cache clean"
