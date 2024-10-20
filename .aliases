@@ -10,6 +10,7 @@ alias aa="vim ~/.aliases"
 
 # OS
 alias c="clear"
+alias cat="bat"
 alias ls="ls -Gal"
 alias o="open ."
 alias pls="sudo !!"
