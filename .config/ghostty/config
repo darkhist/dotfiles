@@ -1,0 +1,19 @@
+font-family = Fira Code
+font-size = 24
+
+theme = Catppuccin Frappe
+
+shell-integration-features = no-cursor
+cursor-style = block
+
+mouse-hide-while-typing = true
+
+macos-icon = retro
+
+window-colorspace = "display-p3"
+window-height = 102
+window-width = 204 
+window-position-x = 40 
+window-position-y = 90 
+window-padding-x = 8
+window-save-state = always
