@@ -53,3 +53,5 @@ setopt hist_find_no_dups
 
 # PATH
 export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
+
+alias claude="/Users/darkhist/.claude/local/claude"
