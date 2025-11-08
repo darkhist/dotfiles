@@ -8,12 +8,16 @@ alias vv="vim ~/.vimrc"
 # EDIT ALIASES
 alias aa="vim ~/.aliases"
 
+# GHOSTTY
+alias ghost="vim ~/.config/ghostty/config"
+
 # OS
 alias c="clear"
 alias cat="bat"
 alias ls="ls -Gal"
 alias o="open ."
 alias pls="sudo !!"
+alias tree="tree -a -L 3"
 
 # GIT
 alias add="git add"
