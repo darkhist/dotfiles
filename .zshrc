@@ -26,10 +26,14 @@ source <(fzf --zsh)
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no 
 
+# TRY (https://github.com/tobi/try)
+export TRY_PATH="$HOME/Documents/code/sketches"
+eval "$(try init)"
+
 # EDITORS
 VISUAL='code --wait'
-EDITOR='/usr/bin/vim'
-export VISUAL 
+EDITOR="$(command -v vim)"
+export VISUAL
 export EDITOR
 
 # KEYBINDS
@@ -40,18 +44,19 @@ bindkey '^[f' forward-word
 bindkey '^F' autosuggest-accept
 
 # HISTORY
-HISTSIZE=1000
+HISTSIZE=25000
 HISTFILE=$HOME/.zsh_history
-SAVEHIST=$HISTSIZE
+SAVEHIST=25000
 HISTDUP=erase
+HISTORY_IGNORE="(ls|ls *|cd|cd *|cat *|c|o|gs|tree|tree *|pwd)"
 setopt appendhistory
 setopt sharehistory
-setopt hist_ignore_all_dups 
+setopt hist_ignore_all_dups
 setopt hist_ignore_dups
-setopt hist_save_no_dups 
+setopt hist_save_no_dups
 setopt hist_find_no_dups
+setopt extended_glob
 
 # PATH
-export PATH="/usr/local/opt/postgresql@16/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
-alias claude="/Users/darkhist/.claude/local/claude"
