@@ -15,6 +15,8 @@ brew "gh"
 brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Node version management
@@ -35,32 +37,40 @@ brew "wget"
 brew "yarn"
 # UNIX shell (command interpreter)
 brew "zsh"
+# Claude Code integration
 vscode "anthropic.claude-code"
+# Astro language support
 vscode "astro-build.astro-vscode"
+# Tailwind CSS IntelliSense
 vscode "bradlc.vscode-tailwindcss"
+# Catppuccin color theme
 vscode "catppuccin.catppuccin-vsc"
+# Autocompletes filesystem paths
 vscode "christian-kohler.path-intellisense"
-vscode "dbaeumer.vscode-eslint"
+# Custom CSS/JS injector (used for extra Catppuccin UI theming)
 vscode "drcika.apc-extension"
+# Supercharged Git integration (blame, history, comparisons)
 vscode "eamodio.gitlens"
+# Prettier code formatter
 vscode "esbenp.prettier-vscode"
+# Auto-closes HTML/JSX/XML tags
 vscode "formulahendry.auto-close-tag"
+# Per-project window/title bar coloring
 vscode "johnpapa.vscode-peacock"
+# File-type icons in outline/breadcrumbs
 vscode "miguelsolorio.symbols"
+# Syntax highlighting for .env files
 vscode "mikestead.dotenv"
-vscode "ms-python.debugpy"
-vscode "ms-python.python"
+# p5.js snippets and autocomplete
 vscode "samplavigne.p5-vscode"
+# Spellchecks code, comments, and strings
 vscode "streetsidesoftware.code-spell-checker"
+# MDX (Markdown + JSX) language support
 vscode "unifiedjs.vscode-mdx"
+# Vim keybindings
 vscode "vscodevim.vim"
+# Readable TypeScript error messages
 vscode "yoavbls.pretty-ts-errors"
-npm "@sanity/cli"
 npm "corepack"
-npm "elm-format"
-npm "elm-test"
-npm "firebase-tools"
 npm "git-removed-branches"
 npm "pure-prompt"
-npm "surge"
-npm "vercel"
