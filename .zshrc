@@ -28,7 +28,6 @@ zstyle ':completion:*' menu no
 
 # TRY (https://github.com/tobi/try)
 export TRY_PATH="$HOME/Documents/code/sketches"
-eval "$(try init)"
 
 # EDITORS
 VISUAL='code --wait'
