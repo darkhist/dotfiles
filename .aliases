@@ -1,3 +1,11 @@
+# OS
+alias c="clear"
+alias cat="bat"
+alias ls="ls -Gal"
+alias o="open ."
+alias pls="sudo !!"
+alias tree="tree -a -L 3"
+
 # EDIT ZSH CONFIG
 alias ez="vim ~/.zshrc"
 alias rz="source ~/.zshrc" 
@@ -14,14 +22,6 @@ alias ghost="vim ~/.config/ghostty/config"
 # HERDR
 alias hc="vim ~/.config/herdr/config.toml"
 alias rhc="herdr server reload-config"
-
-# OS
-alias c="clear"
-alias cat="bat"
-alias ls="ls -Gal"
-alias o="open ."
-alias pls="sudo !!"
-alias tree="tree -a -L 3"
 
 # GIT
 alias add="git add"
@@ -46,3 +46,6 @@ alias unstage="git restore --staged"
 alias destroy="rm -rf node_modules && yarn cache clean"
 alias npmg="npm list -g --depth 0"  
 alias yarng="yarn global list"
+
+# OPENCODE
+alias oc="ollama launch opencode"
