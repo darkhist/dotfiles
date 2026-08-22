@@ -26,10 +26,6 @@ source <(fzf --zsh)
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no 
 
-# TRY (https://github.com/tobi/try)
-export TRY_PATH="$HOME/Documents/code/sketches"
-eval "$(try init $TRY_PATH)"
-
 # EDITORS
 VISUAL='code --wait'
 EDITOR="$(command -v vim)"
@@ -56,6 +52,13 @@ setopt hist_ignore_dups
 setopt hist_save_no_dups
 setopt hist_find_no_dups
 setopt extended_glob
+
+# TRY (https://github.com/tobi/try)
+export TRY_PATH="$HOME/Documents/code/sketches"
+eval "$(command try init "$TRY_PATH")"
+
+# OLLAMA
+export OLLAMA_MODELS=/Volumes/T7/ollama-models
 
 # PATH
 export PATH="$HOME/.local/bin:$PATH"
