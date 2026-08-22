@@ -1,0 +1,34 @@
+onboarding = false
+
+[theme]
+name = "catppuccin"
+
+[keys]
+prefix = "ctrl+space"
+new_workspace = "prefix+a"
+close_workspace = "prefix+d"
+new_tab = "prefix+t"
+close_tab = "prefix+c"
+previous_agent = "prefix+i"
+next_agent = "prefix+u"
+next_tab = "ctrl+alt+]"
+previous_tab = "ctrl+alt+["
+
+[terminal]
+default_shell = ""
+new_cwd = "follow"
+
+[worktrees]
+directory = "~/.herdr/worktrees"
+
+[ui]
+agent_panel_sort = "priority"
+confirm_close = false
+copy_on_select = true
+prompt_new_tab_name = false
+show_agent_labels_on_pane_borders = false
+sidebar_width = 14
+status_indicators = "dots"
+
+[ui.sound]
+enabled = false
