@@ -11,6 +11,10 @@ alias aa="vim ~/.aliases"
 # GHOSTTY
 alias ghost="vim ~/.config/ghostty/config"
 
+# HERDR
+alias hc="vim ~/.config/herdr/config.toml"
+alias rhc="herdr server reload-config"
+
 # OS
 alias c="clear"
 alias cat="bat"
