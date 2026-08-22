@@ -57,9 +57,12 @@ setopt extended_glob
 export TRY_PATH="$HOME/Documents/code/sketches"
 eval "$(command try init "$TRY_PATH")"
 
-# OLLAMA
+# OLLAMA MODEL DIRECTORY
 export OLLAMA_MODELS=/Volumes/T7/ollama-models
 
-# PATH
+# LOCAL SCRIPTS 
 export PATH="$HOME/.local/bin:$PATH"
+
+# OPENCODE 
+export PATH=/Users/darkhist/.opencode/bin:$PATH
 
